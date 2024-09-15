@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "ekssandeepbucket"
+    bucket = "eks-sandeepbucket"
     key    = "backend/ToDo-App.tfstate"
     region = "us-east-1"
     dynamodb_table = "dynamoDB-terra"
